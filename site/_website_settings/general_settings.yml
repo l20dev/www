@@ -1,0 +1,11 @@
+website_theme: Hydra
+website_name: Lean20
+live_domain_url: https://lean20.com
+website_description_text: Essential tools for small and early stage companies
+social_media_share_image:
+twitter_handle:
+icons:
+  small_bookmark_icon_image: /images/icons/favicon-16.jpg
+  large_bookmark_icon_image: /images/icons/favicon-32.jpg
+  small_mobile_icon_image: /images/icons/mobile-128.jpg
+  large_mobile_icon_image: /images/icons/mobile-256.jpg
