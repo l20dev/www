@@ -1,4 +1,4 @@
-// These styles are the base styles for all themes. They are also the base set for Hydra. 
+// These styles are the base styles for all themes. They are also the base set for Hydra.
 // Changing these will effect all themes, and the Hydra theme.
 // To add a new theme, create a new stylesheet and include it at the bottom of this one.
 
@@ -168,6 +168,8 @@ body {
 // Components
 
 .component-wrapper {
+    border-top:1px solid #dee2e6;
+    border-bottom:1px solid #dee2e6;
     &--light {
         background-color: var(--component-color);
     }
@@ -177,6 +179,10 @@ body {
 
     &--branded {
         background-color: var(--brand-color);
+    }
+
+    &--secondary {
+        background-color: var(--secondary-color);
     }
 
     &:last-child {
