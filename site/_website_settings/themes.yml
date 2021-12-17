@@ -35,8 +35,8 @@ hydra:
     footer_color: '#000000'
     footer_link_color: '#999999'
     footer_link_hover_color: '#ffffff'
-  headings_font: San Francisco
-  body_font: San Francisco
+  headings_font: Public Sans
+  body_font: Public Sans
   content_font_size_number: 2
 justice:
   light_theme_settings:
