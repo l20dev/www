@@ -168,13 +168,14 @@ body {
 // Components
 
 .component-wrapper {
-    border-top:1px solid #dee2e6;
-    border-bottom:1px solid #dee2e6;
+
     &--light {
         background-color: var(--component-color);
     }
     &--dark {
         background-color: var(--dark-component-color);
+        border-top:1px solid #dee2e6;
+        border-bottom:1px solid #dee2e6;
     }
 
     &--branded {
