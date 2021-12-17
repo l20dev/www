@@ -183,7 +183,11 @@ body {
     }
 
     &--secondary {
-        color: var(--secondary-text-color);
+        p
+        {
+            color: var(--secondary-text-color);
+        }
+
         background-color: var(--secondary-color);
     }
 

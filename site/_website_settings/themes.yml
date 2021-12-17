@@ -4,7 +4,7 @@ hydra:
     light_component_color: '#ffffff'
     dark_component_color: '#f6f6f6'
     brand_color: '#31c312'
-    secondary_color: '#171723'
+    secondary_color: '#191926'
     secondary_text_color: '#ffffff'
     headings_color: '#000000'
     text_color: '#666666'
