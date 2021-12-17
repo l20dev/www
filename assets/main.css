@@ -142,7 +142,7 @@ html p code, html li code, body p code, body li code { font-size: initial; paddi
 
 .component-wrapper--secondary { background-color: var(--secondary-color); }
 
-.component-wrapper--secondary p { color: var(--secondary-text-color); }
+.component-wrapper--secondary p, .component-wrapper--secondary h1, .component-wrapper--secondary h2, .component-wrapper--secondary h3, .component-wrapper--secondary h4, .component-wrapper--secondary h5, .component-wrapper--secondary h6, .component-wrapper--secondary span, .component-wrapper--secondary div { color: var(--secondary-text-color); }
 
 .component { position: relative; margin: 0 auto; padding: var(--component-padding) var(--s-30-50); max-width: var(--breakpoint-max); transition: filter 0.2s ease-out, opacity 0.2s ease-in-out; box-sizing: content-box; }
 
