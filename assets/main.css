@@ -134,11 +134,9 @@ html p code, html li code, body p code, body li code { font-size: initial; paddi
 
 .dark-mode-toggle .n-button svg { padding-right: 8px; }
 
-.component-wrapper { border-top: 1px solid #dee2e6; border-bottom: 1px solid #dee2e6; }
-
 .component-wrapper--light { background-color: var(--component-color); }
 
-.component-wrapper--dark { background-color: var(--dark-component-color); }
+.component-wrapper--dark { background-color: var(--dark-component-color); border-top: 1px solid #dee2e6; border-bottom: 1px solid #dee2e6; }
 
 .component-wrapper--branded { background-color: var(--brand-color); }
 
