@@ -83,7 +83,6 @@ _select_data:
     - 'Light'
     - 'Dark'
     - 'Branded'
-    - 'Secondary'
 
 _comments:
   live_domain_url: "Remove any '/' at the end of the URL so your domain looks like this - 'https://example.com'"
@@ -94,14 +93,13 @@ _comments:
   small_bookmark_icon_image: 16x16px
 
 defaults:
-  -
-    scope:
-      path: ""
+  - scope:
+      path: ''
     values:
       layout: default
       _options:
         content: &content_defaults
-          uploads_dir: "/images/uploads/:title"
+          uploads_dir: '/images/uploads/:title'
           width: 1180
           height: 900
           format: p h1 h2 h3 h4 h5 h6 div
@@ -129,27 +127,20 @@ defaults:
           image: true
           link: true
           embed: true
-        content_text:
-          *content_defaults
-        content_html:
-          *content_defaults
-        text:
-          *content_defaults
-        text_html:
-          *content_defaults
-  -
-    scope:
+        content_text: *content_defaults
+        content_html: *content_defaults
+        text: *content_defaults
+        text_html: *content_defaults
+  - scope:
       type: pages
       path: _pages/index.html
     values:
       permalink: /
-  -
-    scope:
+  - scope:
       type: posts
     values:
       layout: post
-  -
-    scope:
+  - scope:
       type: clients
     values:
       layout: client
