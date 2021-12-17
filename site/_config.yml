@@ -83,6 +83,7 @@ _select_data:
     - 'Light'
     - 'Dark'
     - 'Branded'
+    - 'Secondary'
 
 _comments:
   live_domain_url: "Remove any '/' at the end of the URL so your domain looks like this - 'https://example.com'"
