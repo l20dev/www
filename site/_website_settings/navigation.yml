@@ -7,8 +7,8 @@ navigation_items:
   - label: Pricing
     link_url: /pricing/
     link_type: Text
-  - label: Mission
-    link_url: /mission/
+  - label: About
+    link_url: /about/
     link_type: Text
   - label: Login
     link_url: 'https://app.lean20.com'

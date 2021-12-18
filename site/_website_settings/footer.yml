@@ -2,8 +2,8 @@ link_columns:
   - label: Primary
     heading:
     links:
-      - link_label: Mission
-        link_url: /mission
+      - link_label: About
+        link_url: /about
         icon_image:
         open_in_new_tab: false
       - link_label: Products
