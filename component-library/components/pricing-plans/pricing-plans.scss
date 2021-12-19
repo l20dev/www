@@ -16,7 +16,7 @@
 
 	&__plans {
 		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 		grid-gap: 25px;
 		justify-items: center;
 		padding: 75px 0 0 0;
