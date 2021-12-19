@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1"
+	 id="Layer_1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 74.9 100"
+	 style="enable-background:new 0 0 74.9 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#212121;}
+	.st1{fill:#31C312;}
+</style>
+<path class="st0" d="M4.7,11.9C2.1,11.9,0,14,0,16.6v65.7C0,84.9,2.1,87,4.7,87h28.9c-0.5-2-0.8-4-0.8-6.1H4.9V18h50.8v40.1
+	c1.7,0,3.3,0.2,4.9,0.5v-42c0-2.6-2.1-4.7-4.7-4.7H4.7z"/>
+<path class="st0" d="M12.2,25.5h36.3v3.6H12.2V25.5z"/>
+<path class="st0" d="M12.2,38.2h36.3v3.6H12.2V38.2z"/>
+<path class="st0" d="M12.2,51h36.3v3.6H12.2V51z"/>
+<path class="st1" d="M50.3,88.8l-6.5-5.9l2.7-3.2l3.7,3.5L62.1,70l2.6,2.6L50.3,88.8z"/>
+<path class="st0" d="M54.3,58.7c-11.4,0-20.6,9.2-20.6,20.6c0,11.4,9.2,20.6,20.6,20.6c0,0,0,0,0,0c11.4,0,20.6-9.2,20.6-20.6
+	C74.9,68,65.7,58.7,54.3,58.7z M54.3,62.5c9.3,0,16.8,7.5,16.8,16.8c0,9.3-7.5,16.8-16.8,16.8c-9.3,0-16.8-7.5-16.8-16.8
+	c0,0,0,0,0,0C37.4,70.1,45,62.5,54.3,62.5C54.3,62.5,54.3,62.5,54.3,62.5z"/>
+<path class="st0" d="M30.3,0c-5.5,0-7,4.7-7,4.7c-4.1,6.2-12.6,2.8-14,7h21h21c-1.4-4.2-9.9-0.8-14-7C37.3,4.7,35.8,0,30.3,0z
+	 M30.2,2.5c1.5,0,2.8,1.2,2.8,2.8c0,1.5-1.2,2.8-2.8,2.8c-1.5,0-2.8-1.2-2.8-2.8C27.4,3.7,28.6,2.5,30.2,2.5
+	C30.2,2.5,30.2,2.5,30.2,2.5z"/>
+</svg>
