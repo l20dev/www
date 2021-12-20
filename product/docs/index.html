@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lean20</title>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="Lean20">
+    <meta property="og:description" content="Lean20 Docs is a simple knowledge base software to manage your customer-facing help content.">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="https://lean20.com/product/docs/">
+    <meta name="twitter:card" content="Lean20 Docs is a simple knowledge base software to manage your customer-facing help content.">
+    <meta property="og:site_name" content="Lean20">
+    <meta name="twitter:image:alt" content="">
+    <meta property="twitter:title" content="Docs">
+    <meta name="twitter:site" content="">
+    <link rel="canonical" href="https://lean20.com/">
+
+    <link rel="stylesheet" href="/assets/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="shortcut icon" href="/images/icons/favicon-32.png">
+    <link rel="icon" type="image/png" href="/images/icons/favicon-32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/images/icons/favicon-16.png" sizes="16x16" />
+
+    <link rel="apple-touch-icon" sizes="128x128" href="/images/icons/mobile-128.png">
+    <link rel="apple-touch-icon" sizes="256x256" href="/images/icons/mobile-256.png">
+    <link rel="icon" sizes="128x128" href="/images/icons/mobile-128.png" />
+    <link rel="icon" sizes="256x256" href="/images/icons/mobile-256.png" />
+
+    
+        
+        
+        <link rel="stylesheet" 
+              href="//fonts.googleapis.com/css?family=Public+Sans|Public+Sans:400,400i,700,700i">
+        
+    
+</head>
+<body>
+    <div class="body-wrapper">
+        
+
+
+<div id="js-nav"
+	 class="c-navigation
+	 		"
+	 >
+	<div class="c-navigation__inner-wrapper">
+		
+			<a href="/">
+				<img src="/images/l20-logo.svg" alt="Lean20" />
+			</a>
+		
+		<h1 class="c-navigation__title"><a href="/">Lean20</a></h1>
+		<ul class="c-navigation__nav-items">
+			
+				<li class="c-navigation__item-wrapper">
+					<a class="c-navigation__item
+							  c-navigation__item--text
+							  "
+					   href="/product/">
+					   <span class="c-navigation__label">Product</span>
+					</a>
+				</li>
+			
+				<li class="c-navigation__item-wrapper">
+					<a class="c-navigation__item
+							  c-navigation__item--text
+							  "
+					   href="/pricing/">
+					   <span class="c-navigation__label">Pricing</span>
+					</a>
+				</li>
+			
+				<li class="c-navigation__item-wrapper">
+					<a class="c-navigation__item
+							  c-navigation__item--text
+							  "
+					   href="/about/">
+					   <span class="c-navigation__label">About</span>
+					</a>
+				</li>
+			
+				<li class="c-navigation__item-wrapper">
+					<a class="c-navigation__item
+							  c-navigation__item--text
+							  "
+					   href="https://app.lean20.com">
+					   <span class="c-navigation__label">Login</span>
+					</a>
+				</li>
+			
+				<li class="c-navigation__item-wrapper">
+					<a class="c-navigation__item
+							  c-navigation__item--button
+							  "
+					   href="https://app.lean20.com/register">
+					   <span class="c-navigation__label">Sign up</span>
+					</a>
+				</li>
+			
+
+			<li class="c-navigation__item-wrapper c-navigation__item-wrapper--mobile">
+				<a id="js-mobile-toggle"
+				   class="c-navigation__item
+						  c-navigation__item--mobile-toggle"
+				   href="#">
+				   <span class="c-navigation__label">☰</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<script>
+	const navToggle = document.getElementById('js-mobile-toggle');
+	const nav = document.getElementById('js-nav');
+	
+	function toggleNav() {
+		nav.classList.toggle('c-navigation--open');
+	}
+
+	navToggle.addEventListener('click', toggleNav);
+</script>
+        <!-- 
+            A data-bookshop-live enables live editing previews in CloudCannon.
+            To enable live previews of new components, we render all components
+            via a page component that expects an array of content blocks.
+
+            data-bookshop-props is used to control what front matter to bind to.
+            Here we want to bind to all the front matter, so that page.content_blocks
+            is accessible from the bookshop renderer.
+
+            This element will get picked up by the bookshop dev renderer if present,
+            on production this does nothing.
+        -->
+        <div data-bookshop-live="page" data-bookshop-props="page">
+            <!-- 
+                Bookshop components are accessed using the bookshop tag, 
+                using the same syntax as the standard Jekyll include tag.
+            -->
+
+            <!--bookshop-live name(page/page.jekyll.html) params(content_blocks=page.content_blocks page_theme=page.page_theme) context() -->
+          
+    <div class="c-page theme-dark">
+
+    
+    
+        
+        <div class="c-image-and-text-blocks 
+                    component-wrapper
+                    
+                        component-wrapper--light
+                    ">
+            <!--bookshop-live name(image-and-text-blocks/image-and-text-blocks.jekyll.html) params(bind=block) context(block=content_blocks[0]) -->
+          <div class="c-image-and-text-blocks__inner-wrapper
+			component">
+	
+		<div class="c-image-and-text-blocks__block
+					c-image-and-text-blocks__block--left">
+			<div class="c-image-and-text-blocks__content-wrapper">
+				<div class="c-image-and-text-blocks__heading">
+					<h1><img class="product-icon" src="/images/home-docs.svg" />Docs</h1>
+				</div>
+				<div class="c-image-and-text-blocks__content">
+					<p>A simplified knowledge base built for you</p><p>Easily create help documentation, FAQs, product support, and more.</p>
+					
+						<!--bookshop-live name(button/button.jekyll.html) params(label=block.button.button_label
+									variant=block.button.button_variant
+									link_url=block.button.button_link_url) context(block=blocks[0]) -->
+          
+
+
+
+	<a class="n-button
+			  n-button--filled"
+		href="/product/docs/#pricing"
+		>
+		<span class="n-button__label">Request Early Access</span>
+	</a>
+
+          <!--bookshop-live end-->
+					
+				</div>
+			</div>
+			<div class="c-image-and-text-blocks__image-wrapper">
+				<img src="/uploads/home-docs-placeholder.png" alt="Docs" />
+			</div>
+		</div>
+	
+</div>
+          <!--bookshop-live end-->
+        </div>
+        
+    
+        
+        <div class="c-statistics 
+                    component-wrapper
+                    
+                        component-wrapper--dark
+                    ">
+            <!--bookshop-live name(statistics/statistics.jekyll.html) params(bind=block) context(block=content_blocks[1]) -->
+          <div
+  class="c-statistics__inner-wrapper
+			component"
+>
+  
+  <h3 class="c-statistics__main-heading">Help your customers by giving them an easy-to-use knowledge base.</h3>
+  
+  <div class="c-statistics__grid">
+    
+    <div class="c-statistics__stat">
+      <div class="c-statistics__content-wrapper">
+        <div class="c-statistics__icon">
+          <img src="/uploads/product-customize.svg" alt="" />
+        </div>
+        <div class="c-statistics__content">
+          <h3 class="c-statistics__heading">Branding</h3>
+          <p class="c-statistics__text">Your logo, colors, and a custom domain. We never charge for things that should be free.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="c-statistics__stat">
+      <div class="c-statistics__content-wrapper">
+        <div class="c-statistics__icon">
+          <img src="/uploads/product-docs-editor.svg" alt="" />
+        </div>
+        <div class="c-statistics__content">
+          <h3 class="c-statistics__heading">Intuitive</h3>
+          <p class="c-statistics__text">An easy-to-use editor will let you build your help docs fast.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="c-statistics__stat">
+      <div class="c-statistics__content-wrapper">
+        <div class="c-statistics__icon">
+          <img src="/uploads/product-search.svg" alt="" />
+        </div>
+        <div class="c-statistics__content">
+          <h3 class="c-statistics__heading">Searching</h3>
+          <p class="c-statistics__text">Enable easy discovery of relevant content quickly.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="c-statistics__stat">
+      <div class="c-statistics__content-wrapper">
+        <div class="c-statistics__icon">
+          <img src="/uploads/product-unlimited.svg" alt="" />
+        </div>
+        <div class="c-statistics__content">
+          <h3 class="c-statistics__heading">No Limits</h3>
+          <p class="c-statistics__text">Unlimited users and help articles. No arbitrary limits to hold you back.</p>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+          <!--bookshop-live end-->
+        </div>
+        
+    
+        
+        <div class="c-content 
+                    component-wrapper
+                    
+                        component-wrapper--light
+                    ">
+            <!--bookshop-live name(content/content.jekyll.html) params(bind=block) context(block=content_blocks[2]) -->
+          <div class="c-content__inner-wrapper
+            component">
+    <div class="c-content__content-wrapper">
+        <p id="pricing" class="align-to-center">We are still building Docs. Our goal is to provide you a simplified product at a fair price.</p><p class="align-to-center"><strong>&nbsp;Request early access now to be notified as soon as it is ready.</strong></p><div class="cms-embed" style="padding-top:0;" data-cms-embed="PGlmcmFtZSBzcmM9Imh0dHBzOi8vY2RuLmZvcm1zLWNvbnRlbnQuc2ctZm9ybS5jb20vMGYzOGIzMjAtZTI2NC0xMWViLWExMzctNGVkOTg3ODg5YTU3IiBzdHlsZT0iaGVpZ2h0OjQ4M3B4OyB3aWR0aDoxMDAlOyBib3JkZXI6bm9uZTsiPjwvaWZyYW1lPg=="><iframe src="https://cdn.forms-content.sg-form.com/0f38b320-e264-11eb-a137-4ed987889a57" style="height:483px; width:100%; border:1px solid #ced4da;"></iframe></div><p>&nbsp;</p>
+    </div>
+</div>
+          <!--bookshop-live end-->
+        </div>
+        
+    
+
+    </div>
+
+          <!--bookshop-live end-->
+        </div>
+        
+
+        
+
+<div class="c-footer">
+	<div class="c-footer__columns">
+		
+			<div class="c-footer__column">
+				
+				<ul>
+					
+						<li>
+							
+								<a class="c-footer__link"
+								   href="/about"
+								   >
+								   
+<span class="c-footer__link-label">About</span>
+								</a>
+							
+						</li>
+					
+						<li>
+							
+								<a class="c-footer__link"
+								   href="/product"
+								   >
+								   
+<span class="c-footer__link-label">Products</span>
+								</a>
+							
+						</li>
+					
+						<li>
+							
+								<a class="c-footer__link"
+								   href="/pricing/"
+								   >
+								   
+<span class="c-footer__link-label">Pricing</span>
+								</a>
+							
+						</li>
+					
+				</ul>
+			</div>
+		
+			<div class="c-footer__column">
+				
+				<ul>
+					
+						<li>
+							
+								<a class="c-footer__link"
+								   href="https://app.lean20.com"
+								   >
+								   
+<span class="c-footer__link-label">Login</span>
+								</a>
+							
+						</li>
+					
+						<li>
+							
+								<a class="c-footer__link"
+								   href="https://app.lean20.com/register"
+								   >
+								   
+<span class="c-footer__link-label">Sign up</span>
+								</a>
+							
+						</li>
+					
+						<li>
+							
+								<a class="c-footer__link"
+								   href="https://help.lean20.com"
+								   >
+								   
+<span class="c-footer__link-label">Help</span>
+								</a>
+							
+						</li>
+					
+				</ul>
+			</div>
+		
+	</div>
+	<div class="c-footer__lower-text">
+		<p>&copy; Lean20, LLC &bull; <a href="https://lean20.com/legal/terms-of-service.html">Terms</a> &bull; <a href="https://lean20.com/legal/privacy-policy.html">Privacy</a> &bull; <a href="http://status.lean20.com/">System Status</a></p>
+	</div>
+</div>
+
+        <!--<div class="dark-mode-toggle">-->
+        <!--    <a id="js-dark-mode"-->
+        <!--       class="n-button">-->
+        <!--       <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="currentColor"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69zm-2 5.79V18h-3.52L12 20.48 9.52 18H6v-3.52L3.52 12 6 9.52V6h3.52L12 3.52 14.48 6H18v3.52L20.48 12 18 14.48zM12 6v12c3.31 0 6-2.69 6-6s-2.69-6-6-6z"/></svg> <span id="js-mode-label">Dark Mode</span>-->
+        <!--    </a>-->
+        <!--</div>-->
+        <!--<script type="text/javascript" src="/assets/js/dark-mode.js"></script>-->
+
+        <!--
+            live component for CloudCannon live previews.
+        -->
+        <script>
+(function(){
+  const bookshopLiveSetup = (CloudCannon) => {
+    CloudCannon.enableEvents();
+
+    const head = document.querySelector('head');
+    const script = document.createElement('script');
+    script.src = `/_cloudcannon/bookshop-live.js`;
+    script.onload = function() {
+      window.bookshopLive = new window.BookshopLive({
+        remoteGlobals: ['/_cloudcannon/bookshop-site-data.json']
+      });
+      const updateBookshopLive = async () => {
+        const frontMatter = await CloudCannon.value();
+        const options = window.bookshopLiveOptions || {};
+        await window.bookshopLive.update({page: frontMatter}, options);
+        CloudCannon?.refreshInterface?.();
+      }
+      document.addEventListener('cloudcannon:update', updateBookshopLive);
+      updateBookshopLive();
+    }
+    head.appendChild(script);
+  }
+
+  document.addEventListener('cloudcannon:load', function (e) {
+    bookshopLiveSetup(e.detail.CloudCannon);
+  });
+})();
+</script>
+    </div>
+</body>
+</html>
