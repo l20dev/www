@@ -3928,7 +3928,7 @@ items below
   var staff_list_jekyll_default2 = staff_list_jekyll_default;
 
   // component-library/components/statistics/statistics.jekyll.html
-  var statistics_jekyll_default = '<div class="{{c}}__inner-wrapper\n			component">\n	{% if include.heading %}\n		<h2 class="{{c}}__main-heading">{{ include.heading }}</h2>\n	{% endif %}\n	<div class="{{c}}__grid">\n		{% for stat in include.statistics %}\n			<div class="{{c}}__stat">\n				<div class="{{c}}__content-wrapper">\n					<div class="{{c}}__icon">\n						<img src="{{ stat.icon_image }}" alt="{{ stat.title }}" />\n					</div>\n					<div class="{{c}}__content">\n						<h3 class="{{c}}__heading">{{ stat.heading}}</h3>\n						<p class="{{c}}__text">{{ stat.text }}</p>\n					</div>\n				</div>\n			</div>\n		{% endfor %}\n	</div>\n</div>';
+  var statistics_jekyll_default = '<div\n  class="{{c}}__inner-wrapper\n			component"\n>\n  {% if include.heading %}\n  <h3 class="{{c}}__main-heading">{{ include.heading }}</h3>\n  {% endif %}\n  <div class="{{c}}__grid">\n    {% for stat in include.statistics %}\n    <div class="{{c}}__stat">\n      <div class="{{c}}__content-wrapper">\n        <div class="{{c}}__icon">\n          <img src="{{ stat.icon_image }}" alt="{{ stat.title }}" />\n        </div>\n        <div class="{{c}}__content">\n          <h3 class="{{c}}__heading">{{ stat.heading}}</h3>\n          <p class="{{c}}__text">{{ stat.text }}</p>\n        </div>\n      </div>\n    </div>\n    {% endfor %}\n  </div>\n</div>\n';
 
   // bookshop-import-file:components/statistics/statistics.jekyll.html__bookshop_file__
   var statistics_jekyll_default2 = statistics_jekyll_default;
