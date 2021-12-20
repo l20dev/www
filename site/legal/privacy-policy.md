@@ -1,5 +1,6 @@
 ---
 layout: default-md
+permalink: /legal/privacy-policy.html/
 title: Privacy Policy
 description: Our privacy policy
 ---
@@ -35,10 +36,11 @@ In certain situations, we may be required to disclose Personal Information in re
 
 **2.4 General Disclosures**<br/>
 We may also disclose Personal Information:
-* as required by law, such as to comply with a subpoena, or similar legal process;
-* when we believe in good faith that disclosure is necessary to protect our rights; protect your safety or the safety of others; or to investigate fraud;
-* if we are involved in a merger, acquisition, or sale of all or a portion of our assets, notice will be provided via email and/or prominent notice on our website of any change in ownership or uses of Personal Information, as well as any choices you may have if you believe we maintain your Personal Information; or
-* to any other third-party with your prior consent
+
+- as required by law, such as to comply with a subpoena, or similar legal process;
+- when we believe in good faith that disclosure is necessary to protect our rights; protect your safety or the safety of others; or to investigate fraud;
+- if we are involved in a merger, acquisition, or sale of all or a portion of our assets, notice will be provided via email and/or prominent notice on our website of any change in ownership or uses of Personal Information, as well as any choices you may have if you believe we maintain your Personal Information; or
+- to any other third-party with your prior consent
 
 **3. Access and Choice**<br/><br/>
 **3.1 Visitors and Customers**<br/>
@@ -74,7 +76,6 @@ Only persons age 18 or older have permission to access our Service. Our Service 
 **12. Changes To This Privacy Policy**<br/>
 This Privacy Policy is effective as of Jan 14, 2021 and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page. We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. Your continued use of the Service after we post any modifications to the Privacy Policy on this page will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy. If we make any material changes to this Privacy Policy, we will notify you either through the email address you have provided us, or by placing a prominent notice on our website.
 
-
 **Contact Us**<br/>
 If you have any questions about this Privacy Policy, please contact us at<br/>
 Lean20, LLC<br/>
@@ -83,4 +84,3 @@ Kirkland, WA 98033<br/>
 hello@lean20.com<br/><br/>
 
 <h6><em>Last modified 2021-01-14</em></h6><br/><br/>
-
