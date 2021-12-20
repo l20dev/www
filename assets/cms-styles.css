@@ -18,3 +18,9 @@
 span.red-text {
   color: var(--highlight-color);
 }
+
+.product-icon {
+  max-height: 40px;
+  vertical-align: bottom;
+  margin-right: 0.25em;
+}
