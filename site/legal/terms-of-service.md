@@ -1,6 +1,5 @@
 ---
 layout: default-md
-permalink: /legal/terms-of-service.html/
 title: Terms of service
 description: Legal terms and conditions for using Lean20 services
 ---

@@ -1,6 +1,5 @@
 ---
 layout: default-md
-permalink: /legal/privacy-policy.html/
 title: Privacy Policy
 description: Our privacy policy
 ---
