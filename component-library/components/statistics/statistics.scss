@@ -11,7 +11,7 @@
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
 		grid-gap: 25px;
-		// padding-top: var(--component-padding);
+		padding-top: var(--component-padding);
 	}
 
 	&__stat {
