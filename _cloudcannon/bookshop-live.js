@@ -3898,7 +3898,37 @@ items below
   var posts_list_jekyll_default2 = posts_list_jekyll_default;
 
   // component-library/components/pricing-plans/pricing-plans.jekyll.html
-  var pricing_plans_jekyll_default = '<div\n  class="{{c}}__inner-wrapper\n			component"\n>\n  <h2 class="{{c}}__heading">{{ include.heading }}</h2>\n  <p class="{{c}}__subheading">{{ include.subheading }}</p>\n  <div class="{{c}}__plans">\n    {% for plan in include.plans %}\n    <div class="{{c}}__card">\n      <h3 class="{{c}}__title" style="background-color: {{ plan.card_color }}">\n        {{ plan.title }}\n      </h3>\n      <ul class="{{c}}__features">\n        <li>\n          <strong><span class="red-text">{{ plan.price }}</span></strong>\n        </li>\n        {% for item in plan.features %}\n        <li>{{ item.feature }}</li>\n        {% endfor %}\n      </ul>\n      <a\n        class="{{c}}__button"\n        href="{{ plan.button_url }}"\n        style="background-color: {{ plan.card_color }}"\n        >Get started \u2192</a\n      >\n    </div>\n    {% endfor %}\n  </div>\n</div>\n';
+  var pricing_plans_jekyll_default = `<div
+  class="{{c}}__inner-wrapper
+			component"
+>
+  <h2 class="{{c}}__heading">{{ include.heading }}</h2>
+  <p class="{{c}}__subheading">{{ include.subheading }}</p>
+  <div class="{{c}}__plans">
+    {% for plan in include.plans %}
+    <div class="{{c}}__card">
+      <h3 class="{{c}}__title" style="background-color: {{ plan.card_color }}">
+        {{ plan.title }}
+      </h3>
+      <ul class="{{c}}__features">
+        <li>
+          <strong><span class="red-text">{{ plan.price }}</span></strong>
+        </li>
+        {% for item in plan.features %}
+        <li>{{ item.feature }}</li>
+        {% endfor %}
+      </ul>
+      <a
+        class="{{c}}__button"
+        href="{{ plan.button_url }}"
+        style="background-color: {{ plan.button_color | default: plan.card_color }}"
+        >{{plan.button_text | default: 'Get started \u2192' }}</a
+      >
+    </div>
+    {% endfor %}
+  </div>
+</div>
+`;
 
   // bookshop-import-file:components/pricing-plans/pricing-plans.jekyll.html__bookshop_file__
   var pricing_plans_jekyll_default2 = pricing_plans_jekyll_default;
