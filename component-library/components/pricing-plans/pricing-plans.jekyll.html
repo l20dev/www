@@ -21,8 +21,8 @@
       <a
         class="{{c}}__button"
         href="{{ plan.button_url }}"
-        style="background-color: {{ plan.card_color }}"
-        >Get started →</a
+        style="background-color: {{ plan.button_color | default: plan.card_color }}"
+        >{{plan.button_text | default: 'Get started →' }}</a
       >
     </div>
     {% endfor %}

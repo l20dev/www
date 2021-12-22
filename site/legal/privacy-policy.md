@@ -1,5 +1,4 @@
 ---
-layout: default-md
 title: Privacy Policy
 description: Our privacy policy
 ---

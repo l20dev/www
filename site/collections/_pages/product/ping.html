@@ -13,7 +13,7 @@ content_blocks:
         component_theme: Light
         button:
           button_label: Start Today
-          button_link_url: https://app.lean20.com
+          button_link_url: https://app.lean20.com/register
           button_variant: Filled
   - _bookshop_name: statistics
     component_theme: Dark
@@ -26,20 +26,29 @@ content_blocks:
         heading: Alerting
         text: You and your team will get notified if your site is slow or not available via configurable alerts.
       - icon_image: /uploads/product-ping-reporting.svg
-        heading: Reporting
-        text: Your data stored forever, ready and available for compliance and operational discovery.
+        heading: Flexible
+        text: Monitor keywords, status codes, SSL expiry, response time, cronjobs, and more.
       - icon_image: /uploads/product-unlimited.svg
         heading: No Limits
         text: >-
           Unlimited users, monitors, data, and events.  No arbitrary limits
           to hold you back.
-  - _bookshop_name: content
-    content_html: >-
-      <h2 class="align-to-center">Get started with a free trial</h2>
-      <p class="align-to-center">
-        <a class="n-button n-button--filled" href="https://app.lean20.com"><span class="n-button__label">Start Today</span></a>
-      </p>
-      <p class="align-to-center">No Credit card required</p>
+
+  - _bookshop_name: pricing-plans
+    heading: Get started with a free trial
+    subheading: No credit card required
+    plans:
+      - title: Ping
+        card_color: '#2f2e41'
+        button_color: '#31C312'
+        button_text: 'Start Today'
+        price: $12 per month
+        button_url: https://app.lean20.com/register
+        features:
+          - feature: Unlimited Users
+          - feature: Unlimited Monitors
+          - feature: Alerting & Integrations
+          - feature: Uptime & Performance monitoring
     component_theme: Secondary
 SEO_options:
   title: Lean20 Ping - Uptime monitoring for pennies a day
